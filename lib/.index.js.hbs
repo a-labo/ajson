@@ -5,12 +5,12 @@
 
 'use strict'
 
-const ajson = require('./ajson')
+const asjson = require('./asjson')
 
-let lib = ajson.bind(this)
+let lib = asjson.bind(this)
 
-Object.assign(lib, ajson, {
-  ajson
+Object.assign(lib, asjson, {
+  asjson
 })
 
 module.exports = lib

@@ -1,14 +1,14 @@
 /**
- * Test case for ajson.
+ * Test case for asjson.
  * Runs with mocha.
  */
 'use strict'
 
-const ajson = require('../lib/ajson.js')
+const asjson = require('../lib/asjson.js')
 const assert = require('assert')
 const co = require('co')
 
-describe('ajson', function () {
+describe('asjson', function () {
   this.timeout(3000)
 
   before(() => co(function * () {
@@ -19,10 +19,10 @@ describe('ajson', function () {
 
   }))
 
-  it('Ajson', () => co(function * () {
+  it('asjson', () => co(function * () {
     let tmpDir = `${__dirname}/../tmp`
     let mocksDir = `${__dirname}/../misc/mocks`
-    yield ajson('**/index.js', {
+    yield asjson('**/index.js', {
       cwd: mocksDir,
       out: tmpDir
     })

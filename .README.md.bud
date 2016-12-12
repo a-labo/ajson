@@ -24,7 +24,7 @@ module.exports = readmeMdBud({
   links: require('./doc/links'),
   vars: {
     get signature () {
-      let comment = commentsInFile(require.resolve('./lib/ababel'))[ 0 ]
+      let comment = commentsInFile(require.resolve('./lib/asjson'))[ 0 ]
       return commentsInFile.describeFunction(comment)
     }
   }

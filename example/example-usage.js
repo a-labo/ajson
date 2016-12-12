@@ -1,10 +1,10 @@
 'use strict'
 
-const ajson = require('ajson')
+const asjson = require('asjson')
 const co = require('co')
 
 co(function * () {
-  yield ajson('*/index.js', {
+  yield asjson('*/index.js', {
     cwd: 'src',
     out: 'dest'
   })

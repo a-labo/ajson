@@ -1,14 +1,17 @@
 {
-  "name": "ajson",
-  "version": "1.0.0",
+  "name": "asjson",
+  "version": "1.1.1",
   "description": "Convert into json file",
+  "browser": false,
   "main": "lib",
   "scripts": {
     "test": "node ./ci/test.js",
     "prepublish": "node ./ci/build.js"
   },
-  "repository": "a-labo/ajson",
-  "keywords": [],
+  "repository": "a-labo/asjson",
+  "keywords": [
+    "JSON"
+  ],
   "author": {
     "name": "Taka Okunishi",
     "email": "okunishinishi@gmail.com",
@@ -16,9 +19,9 @@
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/a-labo/ajson/issues"
+    "url": "https://github.com/a-labo/asjson/issues"
   },
-  "homepage": "https://github.com/a-labo/ajson#readme",
+  "homepage": "https://github.com/a-labo/asjson#readme",
   "dependencies": {
     "aglob": "^1.1.1",
     "co": "^4.6.0",
