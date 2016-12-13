@@ -1,6 +1,6 @@
 {
   "name": "asjson",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "Convert into json file",
   "browser": false,
   "main": "lib",
